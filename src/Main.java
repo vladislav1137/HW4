@@ -70,5 +70,18 @@ public class Main {
 
     public static void task5() {
         System.out.println("Задача 5");
+        int ageUnderFive = 3;
+        int ageMoreFiveButUnderFourteen = 9;
+        int ageMoreFourteen = 17;
+        if (ageUnderFive < 5) {
+            System.out.println("Если возраст ребенка равен " + ageUnderFive + ", то ему нельзя кататься на аттракционе.");
+        }
+        if (ageMoreFiveButUnderFourteen < 14) {
+            System.out.println("Если возраст ребенка равен " + ageMoreFiveButUnderFourteen + ", то ему можно кататься в сопровождении взрослого.");
+        }
+        if (ageMoreFourteen < 14) {
+        } else {
+            System.out.println("Если возраст ребенка равен " + ageMoreFourteen + ", то ему можно кататься без сопровождения взрослого");
+        }
     }
 }

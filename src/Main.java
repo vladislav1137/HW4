@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1 () {
@@ -27,11 +28,24 @@ public class Main {
         }
         if (temperatureDayTwo >= 5) {
         } else {
-            System.out.println("На улице " + temperatureDayTwo + " градуса, нужно надеть шапуку.");
+            System.out.println("На улице " + temperatureDayTwo + " градуса, нужно надеть шапку.");
         }
     }
 
     public static void task3() {
         System.out.println("Задача 3");
+        int speedLess = 30;
+        int speedMore = 110;
+        if (speedMore > 60) {
+            System.out.println("Если скорость " + speedMore + ", то придется заплатить штраф.");
+        }
+        if (speedLess > 60) {
+        } else {
+            System.out.println("Если скорость " + speedLess + ", то можно ездить спокойно");
+        }
+    }
+
+    public static void task4() {
+        System.out.println("Задача 4");
     }
 }

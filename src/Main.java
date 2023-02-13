@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -6,6 +8,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1 () {
@@ -100,6 +103,20 @@ public class Main {
         if (excess < 102) {
         } else {
             System.out.println("В вагоне нет свободных мест");
+        }
+    }
+
+    public static void task7() {
+        System.out.println("Задача 7");
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three){
+            System.out.println("самое большое число " + one);
+        } else if (two > one && two > three){
+            System.out.println("самое большое число " + two);
+        } else {
+            System.out.println("самое большое число " + three);
         }
     }
 }
